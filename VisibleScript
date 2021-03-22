@@ -1,0 +1,11 @@
+local shopmenu = game.StarterGui.GUI:FindFirstChild("ScrollingFrame")
+local exitbutton = shopmenu:FindFirstChild("ExitButton")
+local pistolbutton = shopmenu:FindFirstChild("Pistol [50 Coins]")
+local pistollabel = shopmenu:FindFirstChild("PistolLabel") 
+
+ 
+
+shopmenu.Visible = false
+exitbutton.Visible = false
+pistolbutton.Visible = false
+pistollabel.Visible = false
